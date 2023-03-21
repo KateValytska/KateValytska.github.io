@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@700&family=Noto+Serif&family=Poppins:wght@400;500&display=swap');
+*{
+    box-sizing: border-box;
+}
+body,html{
+    font-size: 13px;
+    line-height: 16.95px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    background-color: #F4ECE8;
+}
+h1{
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 62.1px;
+}
+h6{
+    color:#F39200;
+    font-size: 13px;
+}
+h2{
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45.72px;
+}
+h3{
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36.15px;
+}
+:root{
+    --bg-color:white;
+    --bg-color-main:#F4ECE8;
+    --second-color: white;
+    --card-font-color:#F39200
+}
+header{
+    line-height: 18.2px;
+    background-color: var(--bg-color);
+}
+.header-input{
+    border: none;
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    text-align: right;
+}
+.input-group-text>svg{
+    background-color: transparent;
+    border: none;
+}
+.search-input{
+    width: 10%;
+}
+.first-prg{
+    background-image: url(img/bg_header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top: -18px;
+}
+.first-prg-text{
+    color:var(--second-color);
+    width: 58%;
+}
+.first-prg-text-p{
+    line-height: 18.2px;
+}
+.first-prg-list-p{
+    width: 85%;
+    font-size: 18px;
+    line-height: 25.2px;
+}
+.vedi-tutte{
+    font-weight: 700;
+    line-height: 18.2px;
+}
+.small-card{
+    background-color: var(--bg-color);
+}
+.card-small-text{
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+    line-height: 19.5px;
+    width:70%
+}
+.card-name-text{
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 14.4px;
+}
+.card-name-text-color{
+    color:var(--card-font-color);
+}
+.news-prgr.button{
+    color: black;
+}
+.news-big-card{
+    width: 69%;
+}
+.mondi-item-img{
+    background-image:url(img/mondi1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width:122px;
+    height:122px;
+    position: relative;
+    z-index: 2;
+    top: 35px;
+    left: 35px;
+}
+.mondi-items{
+    width: 193px;
+    height: 136px;
+    background-color: var(--bg-color);
+    line-height: 25.35px;
+    position: relative;
+    top: -30px;
+}
+.tutorial-prg{
+    padding-bottom: 104px;
+    padding-top: 76px;
+}
+.big-card-header>h6{
+    color: black!important;
+}
+.big-card{
+    background-color: var(--bg-color);
+}
+.big-card>h3{
+    padding-bottom: 67px;
+}
+.sponsor-prg{
+    background-color: var(--bg-color);
+    padding-top: 88px;
+    padding-bottom: 104px;
+}
+.sponsor-prg-content{
+    padding-top: 81px;
+    padding-bottom: 130px;
+    background-color: var(--bg-color-main);
+}
+.wrapper{
+    width: 83%;
+    margin: 0 auto;
+}
+.arrow-l,
+.arrow-r{
+    font-size: 18px;
+    opacity: 0.7;
+    line-height: 19px;
+    color: #3D3D3C;
+}
+.arrow-l{
+    padding-left: 50px;
+}
+.arrow-r{
+    padding-right: 50px;
+}
+.sponsor-prg-items{
+    width: 194px;
+    height: 192px;
+    background-color: var(--bg-color);
+    line-height: 25.35px;
+    padding-top: 80px;
+    position: relative;
+}
+.vieni-prgr{
+    padding-top: 80px;
+    padding-bottom: 88px;
+}
+.vieni-prgr-text{
+    background-color: var(--bg-color);
+    padding-top: 70px;
+    padding-bottom: 71px;
+    padding-left: 87px;
+    padding-right: 83px;
+}
+.vieni-prgr-text>h1{
+    width: 90%;
+}
+.vieni-card:first-child{
+    background-color: #059EB2;
+}
+.vieni-card:last-child{
+    background-color: #F39200;
+}
+.vieni-cards{
+    color: var(--second-color);
+}
+.vieni-prgr-text>.card-name-text{
+    font-size: 13px;
+    line-height: 19.5px;
+}
+.lanostra-prgr-text{
+    width: 55%;
+    padding-left: 86px;
+}
+.lanostra-prgr-forms{
+    width: 45%;
+    padding-right: 106px;
+}
+.lanostra-prgr,.sponsor-prg-content{
+    padding-bottom: 79px;
+}
+footer, .nav-link{
+    color: black!important;
+}
+.h6-black{
+    color: black;
+}
+.socials-list{
+    margin-top: -20px;
+}
+.socials::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 220px;
+    top: 60px;
+    height: 1px;
+    width: 84%;
+    background-color: rgb(81, 74, 74);
+}
+.footer-prg{
+    padding-bottom: 87px;
+}
+.organisations{
+    background-color: var(--bg-color);
+}
+.last-section{
+    background-color: #F2F2F2;
+}
+@media(max-width:1400px){
+    .news-cards-prg{
+        flex-direction: column!important;
+        justify-content: center!important;
+    }
+    .news-big-card{
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center!important;
+    }
+    .news-big-card>img{
+        width: 90%;
+    }
+    .small-cards{
+        flex-direction: row!important;
+        justify-content: center!important;
+    }
+    .small-card:nth-child(1){
+        margin-right: 20px;
+        margin-bottom: 0!important;
+    }
+    .small-cards>.small-card{
+        width: 50%;
+    }
+    .big-cards-prg {
+        justify-content: center!important;
+        flex-wrap: wrap!important;
+        margin: 0 auto;
+        text-align: center;
+}
+    .vieni-prgr-item{
+        flex-direction: column!important;
+        justify-content: center!important;
+}
+    .vieni-cards, .vieni-prgr-text{
+        width: 100%!important;
+}
+    .socials::before{
+        display: none;
+}
+    .organisation-other-logo{
+        flex-direction: column;
+    }
+}
+@media(max-width:1200px){
+    .first-prg-item{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mondi-prg-list{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width:768px){
+    .container{
+        width: 96%;
+        text-align: center;
+    }
+    .wrapper{
+        width: 90%;
+        text-align: center;
+    }
+    .arrow-l{
+        top:95%!important;
+    }
+    .arrow-r{
+        top:95%!important;
+    }
+    .small-cards{
+        flex-direction: column!important;
+        align-content: center!important;
+    }
+    .small-cards>.small-card{
+        width: 100%;
+    }
+    .lanostra-prgr-items{
+        flex-direction: column;
+        justify-content: center!important;
+    }
+    .lanostra-prgr-text, .lanostra-prgr-forms{
+        width: 100%;
+        padding: 0;
+    }
+    .organisation-other-logo{
+        flex-direction: column;
+        width: 80%;
+    }
+    .footer-lanostra{
+        justify-content: center;
+    }
+}
+@media(max-width:576px){
+    .sponsor-prg-list{
+        justify-content: center!important;
+    }
+    .footer-lanostra {
+        justify-content: center;
+    }
+}
